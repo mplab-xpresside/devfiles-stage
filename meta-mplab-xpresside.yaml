@@ -49,7 +49,7 @@ spec:
   containers:
    - name: xpress-ide
      image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-image-beta-v2.0.rc1:latest"
-     env:
+      env:
          - name: THEIA_PLUGINS
            value: local-dir:../plugins
          - name: HOSTED_PLUGIN_HOSTNAME
@@ -69,4 +69,6 @@ spec:
          - exposedPort: 13132
          - exposedPort: 13133
          - exposedPort: 8080
+         - exposedPort: 9003
+         - exposedPort: 8090
      memoryLimit: "2Gi"
