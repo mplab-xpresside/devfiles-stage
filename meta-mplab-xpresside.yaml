@@ -48,7 +48,7 @@ spec:
         discoverable: false
   containers:
    - name: xpress-ide
-     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-image-beta-v2.0.rc3-v2:latest"
+     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-image-beta-v2.0-rc4-v1:latest"
      env:
          - name: THEIA_PLUGINS
            value: local-dir:../plugins
@@ -71,4 +71,4 @@ spec:
          - exposedPort: 8080
          - exposedPort: 9003
          - exposedPort: 8090
-     memoryLimit: "4Gi"
+     memoryLimit: "6Gi"
