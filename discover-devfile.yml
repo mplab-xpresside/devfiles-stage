@@ -12,7 +12,7 @@ projects:
 components:
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/mplab-xpresside/devfiles-dev/main/meta-mplab-xpresside.yaml
+      https://raw.githubusercontent.com/mplab-xpresside/devfiles-stage/main/meta-mplab-xpresside.yaml
   - alias: mcc
     type: dockerimage
     image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/dev/mcc:latest
