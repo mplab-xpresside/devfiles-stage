@@ -2,8 +2,6 @@
 apiVersion: 1.0.0
 metadata:
   name: xpress
-  annotations: 
-    cluster-autoscaler.kubernetes.io/safe-to-evict=false
 attributes:
   persistVolumes: 'false'
 components:
