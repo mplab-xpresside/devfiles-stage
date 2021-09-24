@@ -71,4 +71,6 @@ spec:
          - exposedPort: 8080
          - exposedPort: 9003
          - exposedPort: 8090
-     memoryLimit: "8Gi"
+     memoryLimit: "2Gi"
+     cpuLimit: "300m"
+     cpuRequests: "100m"
