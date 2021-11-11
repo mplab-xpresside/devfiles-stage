@@ -25,5 +25,3 @@ components:
         attributes:
            protocol: ws
            secure: 'false'
-    memoryLimit: "1.2Gi"
-    memoryRequest: "0.6Gi"
