@@ -75,3 +75,5 @@ spec:
      memoryRequest: "2Gi"
      cpuLimit: "2"
      cpuRequest: "0.5"
+     ephemeralStorageLimit: "500Mi"
+     ephemeralStorageRequest: "250Mi"
