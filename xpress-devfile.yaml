@@ -11,11 +11,10 @@ components:
   - alias: mcc
     type: dockerimage
     image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/mcu8/mcc-5.1.0-rc.a:latest
-    resources:
-      requests:
-        ephemeral-storage: "2Gi"
-      limits:
-        ephemeral-storage: "4Gi"
+    requests:
+      ephemeral-storage: "2Gi"
+    limits:
+      ephemeral-storage: "4Gi"
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
