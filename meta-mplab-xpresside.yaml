@@ -75,5 +75,3 @@ spec:
      memoryRequest: "2Gi"
      cpuLimit: "2"
      cpuRequest: "0.5"
-     storageLimit: "500Mi"
-     storageRequest: "250Mi"
