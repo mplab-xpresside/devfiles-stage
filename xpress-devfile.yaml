@@ -27,5 +27,3 @@ components:
            secure: 'false'
     memoryLimit: "2.5Gi"
     memoryRequest: "1Gi"
-    storageLimit: "500Mi"
-    storageRequest: "250Mi"
