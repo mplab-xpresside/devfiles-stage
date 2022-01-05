@@ -27,5 +27,5 @@ components:
            secure: 'false'
     memoryLimit: "2.5Gi"
     memoryRequest: "1Gi"
-    ephemeralStorageLimit: "500Mi"
-    ephemeralStorageRequest: "250Mi"
+    storageLimit: "500Mi"
+    storageRequest: "250Mi"
