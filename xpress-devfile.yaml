@@ -25,10 +25,5 @@ components:
         attributes:
            protocol: ws
            secure: 'false'
-    resources:
-      requests:
-        ephemeral-storage: "250Mi"
-      limits:
-        ephemeral-storage: "500Mi"
     memoryLimit: "2.5Gi"
     memoryRequest: "1Gi"
