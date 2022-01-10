@@ -27,3 +27,4 @@ components:
            secure: 'false'
     memoryLimit: "2.5Gi"
     memoryRequest: "1Gi"
+    hugePages-1GiLimit: 2Gi
