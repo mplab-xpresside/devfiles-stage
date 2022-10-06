@@ -1,0 +1,30 @@
+apiVersion: v2
+publisher: xpress
+name: my-rest-plugin
+version: 0.0.1
+type: Che Plugin
+displayName: My Rest Service
+title: Xpress Rest Service Plugin
+description: Rest container.
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/mplab-xpresside/devfiles-stage
+firstPublicationDate: "2022-07-19"
+category: Other
+spec:
+  endpoints:
+   -  name: "mplab-rest-server"
+      public: true
+      targetPort: 8080
+      attributes:
+        discoverable: false
+        protocol: http
+  containers:
+   - name: mplab-rest-server
+     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-rest-image:v1.30.rc1"
+     volumes:
+       - mountPath: "/home/projects"
+         name: xpressprojects
+     mountSources: true
+     ports:
+       - exposedPort: 8080
+     memoryLimit: "2Gi"

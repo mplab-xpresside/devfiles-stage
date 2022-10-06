@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: cherxp
 name: che-xpress
-version: 7.4.0
+version: 1.20.1
 type: Che Editor
 displayName: xpress-ide
 title: Xpress for Eclipse Che
@@ -47,8 +47,8 @@ spec:
         protocol: http
         discoverable: false
   containers:
-   - name: xpress-ide
-     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-image:v1.20.1.01"
+   - name: xpress-ide   
+     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-ide-image:v1.30.rc1"
      env:
          - name: THEIA_PLUGINS
            value: local-dir:../plugins
@@ -71,5 +71,5 @@ spec:
          - exposedPort: 8080
          - exposedPort: 9003
          - exposedPort: 8090
-     memoryLimit: "3Gi"
+     memoryLimit: "2Gi"
      memoryRequest: "1Gi"
