@@ -27,4 +27,5 @@ spec:
      mountSources: true
      ports:
        - exposedPort: 8080
-     memoryLimit: "2Gi"
+     memoryLimit: "2.5Gi"
+     memoryRequest: "1Gi"
