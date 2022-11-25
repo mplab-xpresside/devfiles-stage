@@ -20,7 +20,7 @@ spec:
         protocol: http
   containers:
    - name: mplab-rest-server
-     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-rest-image:v1.30.rc2"
+     image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/xpress-rest-image:v1.30.rc3.1"
      volumes:
        - mountPath: "/home/projects"
          name: xpressprojects
