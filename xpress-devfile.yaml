@@ -28,5 +28,5 @@ components:
         attributes:
            protocol: ws
            secure: 'false'
-    memoryLimit: "1Gi"
-    memoryRequest: "256Mi"
+    memoryLimit: "2Gi"
+    memoryRequest: "512Mi"
