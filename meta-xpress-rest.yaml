@@ -25,6 +25,9 @@ spec:
        - mountPath: "/home/projects"
          name: xpressprojects
      mountSources: true
+     env:
+     - name: _JAVA_OPTIONS
+       value: "-Xmx1280m"
      ports:
        - exposedPort: 8080
      memoryLimit: "2.5Gi"
