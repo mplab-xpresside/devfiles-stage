@@ -57,9 +57,9 @@ spec:
          - name: HOSTED_PLUGIN_PORT
            value: "3130"
          - name: XPRESS_VERSION
-           value: "1.40.03"
+           value: "1.40.04"
          - name: PACKS_VERSION
-           value: "1.40.03"
+           value: "1.40.05"
          - name: MCC_VERSION
            value: "5.3.7"
      volumes:
