@@ -56,19 +56,18 @@ spec:
            value: 0.0.0.0
          - name: HOSTED_PLUGIN_PORT
            value: "3130"
+         - name: XPRESS_VERSION
+           value: "1.40.03"
+         - name: PACKS_VERSION
+           value: "1.40.03"
+         - name: MCC_VERSION
+           value: "5.3.7"
      volumes:
          - mountPath: "/plugins"
            name: plugins
          - mountPath: "/home/projects"
            name: xpressprojects
      mountSources: true
-     env:
-     - name: XPRESS_VERSION
-       value: "1.40.03"
-     - name: PACKS_VERSION
-       value: "1.40.03"
-     - name: MCC_VERSION
-       value: "5.3.7"
      ports:
          - exposedPort: 3000
          - exposedPort: 3130
