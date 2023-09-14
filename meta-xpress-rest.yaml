@@ -27,7 +27,7 @@ spec:
      mountSources: true
      env:
      - name: _JAVA_OPTIONS
-       value: "-Xmx1280m"
+       value: "-Xmx2048m"
      ports:
        - exposedPort: 8080
      memoryLimit: "2.5Gi"
