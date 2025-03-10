@@ -13,7 +13,7 @@ components:
       https://cdn.mplab-xpresside.microchip.com/devfiles/stage/meta-xpress-rest.yaml
   - alias: mcc
     type: dockerimage
-    image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/mcc:5.5.2-rc.a"
+    image: "453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/stage/mcc:5.5.2-02_28_2025_xpressIssue"
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
